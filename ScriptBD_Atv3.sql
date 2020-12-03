@@ -1,0 +1,12 @@
+CREATE DATABASE crud;
+
+USE crud;
+
+CREATE TABLE cadastroAluno
+(
+	id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	nome 	VARCHAR(100) NOT NULL,
+	dataNascimento DATE NOT NULL,
+	ano INTEGER NOT NULL,
+	materiaPreferida VARCHAR(100) NOT NULL
+);
